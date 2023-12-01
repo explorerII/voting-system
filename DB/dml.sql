@@ -1,4 +1,3 @@
-
 INSERT INTO vote_item (item_name, item_status, create_date, last_modified_date)
 VALUES ('電腦', 1, '2023-12-01 00:00:00', '2023-12-01 00:00:00');
 INSERT INTO vote_item (item_name, item_status, create_date, last_modified_date)
