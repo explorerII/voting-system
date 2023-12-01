@@ -9,6 +9,6 @@ public interface VoteItemDao {
     VoteItem getVoteItemById (Integer itemId);
     List<VoteItem> getVoteItems ();
     List<VoteInfo> getVoteInfo ();
-    Integer createVoteItem ();
+    Integer createVoteItem (String itemName, Integer itemStatus);
     void updateVoteItem (Integer itemId, Integer itemStatus);
 }

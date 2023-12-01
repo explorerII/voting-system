@@ -1,10 +1,11 @@
 package com.alvis.votingsystem.dto;
 
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 public class VoteItemRequest {
 
-    @NotNull
+    @NotBlank
     private String itemName;
     @NotNull
     private Integer itemStatus;
