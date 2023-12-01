@@ -15,7 +15,7 @@ import java.util.List;
 public class VoteItemController {
 
     @Autowired
-    public VoteItemService voteItemService;
+    private VoteItemService voteItemService;
 
     @GetMapping("/user/voteInfo")
     public ResponseEntity<?> getVoteInfo () {
